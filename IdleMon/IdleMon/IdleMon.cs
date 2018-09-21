@@ -1,4 +1,4 @@
-﻿using idleMon;
+using idleMon;
 using Message;
 using NamedPipeWrapper;
 using System;
@@ -38,7 +38,7 @@ namespace IdleMon
 
         private ContextMenuStrip TrayIconContextMenu;
         public static bool enableLogging = false;
-        public static bool stealthMode = false;
+        public static bool stealthMode = true;
         public enum PacketID
         {
             None,
